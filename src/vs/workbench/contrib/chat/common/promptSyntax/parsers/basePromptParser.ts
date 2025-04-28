@@ -364,6 +364,14 @@ export class BasePromptParser<TContentsProvider extends IPromptContentsProvider>
 			? extUri.resolvePath(parentFolder, token.path)
 			: URI.file(token.path);
 
+		// TODO: @legomushroom
+		console.log(
+			[
+				`[onReference] path: '${token.path}', parent folder: '${parentFolder?.path}', ref: '${referenceUri.path}'`,
+			].join('\n'),
+			seenReferences,
+		);
+
 		const contentProvider = this.promptContentsProvider.createNew({ uri: referenceUri });
 
 		const reference = this.instantiationService
