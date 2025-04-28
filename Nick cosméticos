@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nick Cosméticos - Sua Beleza em Primeiro Lugar</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fef6f9;
+      color: #333;
+    }
+    header {
+      background-color: #ff6b9d;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    nav {
+      background-color: #ff94c2;
+      text-align: center;
+      padding: 15px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .content {
+      padding: 40px 20px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    footer {
+      background-color: #ff6b9d;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Nick Cosméticos</h1>
+  <p>Sua Beleza em Primeiro Lugar</p>
+</header>
+
+<nav>
+  <a href="#produtos">Produtos</a>
+  <a href="#sobre">Sobre Nós</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<div class="content">
+  <section id="produtos">
+    <h2>Nossos Produtos</h2>
+    <p>Descubra nossa linha completa de cosméticos: hidratantes, maquiagens, cuidados com os cabelos e muito mais — tudo com a qualidade Nick Cosméticos.</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>A Nick Cosméticos nasceu para transformar a rotina de beleza com produtos inovadores, naturais e feitos especialmente para realçar o melhor de você.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Tem dúvidas? Fale com a gente pelo e-mail: contato@nickcosmeticos.com</p>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2025 Nick Cosméticos - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
